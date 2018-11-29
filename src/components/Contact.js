@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 export default class Contact extends Component {
 	render() {
 		return (
+            <div id="main">
               <article id="contact" className="panel">
                 <header>
                   <h2>Contact Me</h2>
@@ -29,6 +30,7 @@ export default class Contact extends Component {
                   </div>
                 </form>
               </article>
+            </div>
 		);
 	}
 }
