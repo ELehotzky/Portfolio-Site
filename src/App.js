@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import logo from './logo.svg';
 import './App.css';
+import Footer from "./components/Footer.js";
 
 class App extends Component {
   render() {
@@ -115,12 +116,7 @@ class App extends Component {
 
           </div>
 
-        {/*<!-- Footer -->*/}
-          <div id="footer">
-            <ul className="copyright">
-              <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-          </div>
+          <Footer />
 
       </div>
 
