@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Work from "./Work.js";
 
 export default class Me extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class Me extends Component {
                   <h1>Jane Doe</h1>
                   <p>Senior Astral Projectionist</p>
                 </header>
-                <a href="#work" className="jumplink pic">
+                <a href="/work" className="jumplink pic">
                   <span className="arrow icon fa-chevron-right"><span>See my work</span></span>
                   <img src="images/me.jpg" alt="" />
                 </a>

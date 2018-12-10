@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
-import logo from './logo.svg';
 import './App.css';
 import Nav from "./components/Nav.js";
 import Me from "./components/Me.js";

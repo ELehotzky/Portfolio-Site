@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import Nav from "./Nav.js";
 
 export default class Work extends Component {
 	render() {
 		return (
+      <div id="wrapper">
+        <Nav />
             <div id="main">
               <article id="work" className="panel">
                 <header>
@@ -55,6 +58,7 @@ export default class Work extends Component {
                 </section>
               </article>
             </div>
+        </div>
 		);
 	}
 }
