@@ -12,9 +12,7 @@ export default class Work extends Component {
                   <h2>Work</h2>
                 </header>
                 <p>
-                  Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                  luctus elit eget interdum.
+                  Here is a small example of some of the projects I've developed.
                 </p>
                 <section>
                   <div className="row">
@@ -44,15 +42,6 @@ export default class Work extends Component {
                     </div>
                     <div className="col-4 col-6-medium col-12-small">
                       <a href="#" className="image fit"><img src="images/pic09.jpg" alt="" /></a>
-                    </div>
-                    <div className="col-4 col-6-medium col-12-small">
-                      <a href="#" className="image fit"><img src="images/pic10.jpg" alt="" /></a>
-                    </div>
-                    <div className="col-4 col-6-medium col-12-small">
-                      <a href="#" className="image fit"><img src="images/pic11.jpg" alt="" /></a>
-                    </div>
-                    <div className="col-4 col-6-medium col-12-small">
-                      <a href="#" className="image fit"><img src="images/pic12.jpg" alt="" /></a>
                     </div>
                   </div>
                 </section>
