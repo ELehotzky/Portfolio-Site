@@ -2150,6 +2150,10 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
+		.pi {
+			max-width: 2%;
+		}
+
 			#footer .copyright li {
 				display: inline-block;
 				padding-left: 1em;

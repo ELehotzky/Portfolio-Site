@@ -9,6 +9,7 @@ export default class Nav extends Component {
             {/*Icons taken from fontawesome.com*/}
             <a href="/" className="icon fa-home" aria-hidden="true"><span>Home</span></a>
             <a href="/work" className="icon fa-folder" aria-hidden="true"><span>Work</span></a>
+            {/*contact form removed until backend hooked up*/}
             {/*<a href="/contact" className="icon fa-envelope" aria-hidden="true"><span>Contact</span></a>*/}
             <a href="https://twitter.com/ericalehotzky" target="_blank" className="icon fa-twitter" aria-hidden="true"><span>Twitter</span></a>
             <a href="https://www.linkedin.com/in/ericalehotzky/" target="_blank" className="icon fa-linkedin-square" aria-hidden="true"><span>LinkedIn</span></a>
