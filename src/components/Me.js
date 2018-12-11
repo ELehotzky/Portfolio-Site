@@ -7,12 +7,11 @@ export default class Me extends Component {
       <div id="main">
               <article id="home" className="panel intro">
                 <header>
-                  <h1>Jane Doe</h1>
-                  <p>Senior Astral Projectionist</p>
+                  <h1>Erica Lehotzky</h1>
+                  <p>Full-Stack Software Engineer</p>
                 </header>
-                <a href="/work" className="jumplink pic">
-                  <span className="arrow icon fa-chevron-right"><span>See my work</span></span>
-                  <img src="images/me.jpg" alt="" />
+                <a className="jumplink pic">
+                  <img src="images/me.jpg" alt="erica-lehotzky" />
                 </a>
               </article>
       </div>
